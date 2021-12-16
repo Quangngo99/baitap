@@ -1,12 +1,16 @@
 @media (min-width: 1600px) {
   .container {
     max-width: 1410px;
+    padding: 0;
   }
   .spacing {
     padding: 17.5px 0;
   }
   .slider {
     height: 760px;
+  }
+  .header .container {
+    padding: 0;
   }
 }
 
@@ -19,6 +23,18 @@
   }
   .slick-prev {
     left: 0;
+  }
+  .product-content {
+    width: 200px;
+  }
+  .product-img img {
+    width: 100%;
+  }
+  .input-email {
+    width: 350px;
+  }
+  .boder-right {
+    padding-right: 100px;
   }
 }
 
@@ -123,7 +139,7 @@
     font-size: 12px;
   }
   .time-open {
-    margin-top: 30px;
+    margin-top: 45px;
   }
   .social {
     margin-top: 40px;
@@ -148,6 +164,15 @@
   }
   .slider {
     height: 500px;
+  }
+  .content-footer-wrap {
+    max-width: 260px;
+  }
+  .boder-right {
+    padding-right: 46px;
+  }
+  .input-email {
+    width: 291px;
   }
 }
 @media (max-width: 1199px) {
@@ -302,6 +327,25 @@
   }
   .slider-wrap {
     top: 30px;
+  }
+  .food-product .slick-list {
+    height: 310px;
+  }
+  .col-full {
+    width: 100%;
+  }
+  .boder-right {
+    border-right: unset;
+    padding-right: 0;
+  }
+  .footer-up {
+    justify-content: space-evenly;
+  }
+  .footer-item-input {
+    padding: 0 77px;
+  }
+  .input-email {
+    width: 100%;
   }
 }
 
@@ -584,6 +628,9 @@
   }
   .slider {
     height: 390px;
+  }
+  .footer-item-input {
+    padding-left: 12px;
   }
 }
 @media (max-width: 767px) {
@@ -895,7 +942,7 @@
     margin: 20px 0;
   }
   .banner {
-    margin-top: 50px;
+    margin: 50px 0;
   }
   .banner-img {
     margin-bottom: 20px;
@@ -1211,5 +1258,77 @@
   }
   .category {
     margin-top: 40px;
+  }
+  .footer-item-input {
+    padding-right: 12px;
+  }
+  .footer-up {
+    display: unset;
+  }
+  .content-footer-wrap:last-child {
+    margin-left: unset;
+  }
+  .deal-title p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .deal-title h3 {
+    font-size: 30px;
+  }
+  .deal-text p {
+    font-size: 12px;
+    margin: 10px 0;
+  }
+  .deal-text p:last-child {
+    margin: 30px 0;
+  }
+  .food {
+    margin-top: 50px;
+  }
+  .blog {
+    margin-bottom: 50px;
+  }
+  .top-header-wrap {
+    display: unset;
+  }
+  .top-header ul {
+    display: none;
+  }
+  .navbar-list {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .slider-content h1 {
+    font-size: 30px;
+  }
+  .slider-content .tagline {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .slider-content {
+    padding: 0 8px;
+  }
+  .slider {
+    padding-top: 0;
+  }
+  .slider-content-text {
+    font-size: 12px;
+  }
+  .slider {
+    height: 307px;
+  }
+  .slider-content button {
+    padding: 5px 10px;
+  }
+  .nav-icon-list .icon {
+    margin-left: 0;
+  }
+  .icon i {
+    font-size: 12px;
+  }
+  .slick-dots {
+    bottom: -30px;
   }
 }
