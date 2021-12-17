@@ -785,6 +785,12 @@
   .banner-deal-wrap {
     left: 42%;
   }
+  .foryou-content {
+    margin-left: 0;
+  }
+  .foryou-wrap {
+    flex-direction: unset;
+  }
 }
 
 @media only screen and (max-device-width: 479px) {
