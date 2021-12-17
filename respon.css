@@ -1039,12 +1039,17 @@
   .form {
     width: 350px;
   }
-
+  .header-nav .spacing {
+    padding-right: 0;
+  }
+  .navbar-nav {
+    width: 100%;
+  }
+  .category .container {
+    padding: 0 12px;
+  }
   .slick-next {
     left: 90%;
-  }
-  .spacing {
-    padding-left: 15px;
   }
   .blog-menu2 {
     left: 47%;
@@ -1194,7 +1199,6 @@
     z-index: 9;
   }
   .social-icon {
-    justify-content: space-between;
     margin-top: 10px;
   }
 
