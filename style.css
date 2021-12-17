@@ -1391,10 +1391,10 @@ button {
   transition: linear 0.3s;
 }
 .food-product .slick-list {
-  height: 407px;
+  height: 405px;
 }
 .food-product .slick-initialized .slick-slide {
-  margin: 0 4px;
+  margin: 0 3px;
 }
 .food-product .slick-initialized .slick-slide:first-child {
   margin-left: 0;
