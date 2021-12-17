@@ -82,9 +82,6 @@
   .input img {
     top: 20%;
   }
-  .baner-deal {
-    background-size: cover;
-  }
   .blog-container {
     padding: 20px;
   }
@@ -174,6 +171,22 @@
   .input-email {
     width: 291px;
   }
+  .banner-img .banner-content p {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .banner-img .banner-content h5 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .banner-img .banner-content span {
+    font-size: 12px;
+  }
+  .banner-img .banner-content {
+    top: 29px;
+    left: 24px;
+  }
 }
 @media (max-width: 1199px) {
   .slider .slick-list {
@@ -206,6 +219,7 @@
   }
   .foryou-content {
     margin-top: 0;
+    margin-left: 0;
   }
   .product-item {
     padding: 10px 5px;
@@ -328,9 +342,6 @@
   .slider-wrap {
     top: 30px;
   }
-  .food-product .slick-list {
-    height: 310px;
-  }
   .col-full {
     width: 100%;
   }
@@ -346,6 +357,40 @@
   }
   .input-email {
     width: 100%;
+  }
+  .banner-img .banner-content p {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  .banner-img .banner-content h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 8px;
+  }
+  .banner-img .banner-content span {
+    font-size: 10px;
+  }
+  .banner-img .banner-content {
+    top: 24px;
+    left: 20px;
+  }
+  .food-product .slick-initialized .slick-slide {
+    margin: 0 3px;
+  }
+  .baner-deal {
+    background-image: url(./images/banner-deal.png);
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .baner-deal img {
+    display: none;
+  }
+  .banner-deal-wrap {
+    top: 12%;
+    left: 14%;
+    transform: unset;
   }
 }
 
@@ -417,7 +462,17 @@
     background-position: center;
   }
   .baner-deal {
+    background-image: url(./images/banner-deal.png);
     background-position: center;
+    position: relative;
+  }
+  .baner-deal img {
+    display: none;
+  }
+  .banner-deal-wrap {
+    top: 12%;
+    left: 14%;
+    transform: unset;
   }
   .blog-content-item:nth-child(3) .blog-content-item {
     padding: 5px;
@@ -783,13 +838,48 @@
     top: 21%;
   }
   .banner-deal-wrap {
-    left: 42%;
+    left: 6%;
   }
   .foryou-content {
     margin-left: 0;
   }
   .foryou-wrap {
     flex-direction: unset;
+  }
+  .top-header ul {
+    display: none;
+  }
+  .top-header-wrap {
+    justify-content: center;
+  }
+  .food-product .slick-list {
+    height: 412px;
+  }
+  .foryou-button-wrap {
+    margin: 0;
+  }
+  .foryou-content {
+    padding-left: 4px;
+  }
+  .banner-img .banner-content p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .banner-img .banner-content h5 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+  .banner-img .banner-content span {
+    font-size: 14px;
+  }
+  .banner-img .banner-content {
+    top: 40px;
+    left: 30px;
+  }
+  .content-footer-wrap {
+    max-width: 156px;
   }
 }
 
@@ -925,11 +1015,6 @@
   }
   .margin-left {
     margin-left: 0 auto;
-  }
-  .banner-deal-wrap {
-    left: 50%;
-    width: 350px;
-    top: 50%;
   }
   .deal-content {
     width: 300px;
@@ -1076,11 +1161,7 @@
     justify-content: space-between;
     margin-top: 10px;
   }
-  .header-footer-wrap {
-    display: flex;
-    overflow-x: auto;
-    flex-wrap: unset;
-  }
+
   .header-footer-wrap::-webkit-scrollbar {
     display: none;
   }
@@ -1305,9 +1386,32 @@
   .navbar-list {
     margin-left: 0;
   }
+  .banner-img .banner-content {
+    top: 30px;
+    left: 25px;
+  }
+  .banner-img .banner-content p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+  .banner-img .banner-content h5 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .banner-img .banner-content span {
+    font-size: 12px;
+  }
+  .food-product .slick-list {
+    height: 346px;
+  }
+  .content-footer-wrap {
+    max-width: 300px;
+  }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 379px) {
   .slider-content h1 {
     font-size: 30px;
   }
@@ -1338,5 +1442,29 @@
   }
   .slick-dots {
     bottom: -30px;
+  }
+  .food-product .slick-list {
+    height: 306px;
+  }
+  .banner-img .banner-content p {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .banner-img .banner-content h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .banner-img .banner-content span {
+    font-size: 11px;
+  }
+  .banner-deal-wrap {
+    width: 390px;
+  }
+  .deal-button button {
+    line-height: 24px;
+  }
+  .foryou-button button {
+    padding: 10px 0;
   }
 }

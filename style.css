@@ -13,6 +13,9 @@ body {
   font-size: 14px;
   line-height: 27px;
 }
+.app {
+  overflow: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -982,6 +985,7 @@ button {
 }
 .slider-img img {
   width: 100%;
+  height: 791px;
   position: absolute;
   top: 0;
 }
@@ -1501,10 +1505,40 @@ button {
 }
 .banner-img {
   width: 100%;
+  position: relative;
 }
 .banner-img img {
   width: 100%;
   border-radius: 6px;
+}
+.banner-img .banner-content {
+  position: absolute;
+  top: 39px;
+  left: 42px;
+}
+.banner-img .banner-content p {
+  color: #ffd600;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+.banner-img .banner-content .color-white {
+  color: white;
+}
+.banner-img .banner-content h5 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.banner-img .banner-content span {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #ffffff;
 }
 /* what hot item */
 .item-list {
@@ -1564,19 +1598,17 @@ button {
 }
 /* banner deal */
 .baner-deal {
-  background-image: url(./images/banner-deal.png);
-  background-size: contain;
-  background-position: center;
-  height: 700px;
-  background-repeat: no-repeat;
+  width: 100%;
+}
+.baner-deal img {
+  width: 100%;
   position: relative;
 }
 .banner-deal-wrap {
   position: absolute;
   width: 440px;
-  top: 50%;
   left: 35%;
-  transform: translate(-50%, -49%);
+  transform: translate(-50%, -142%);
 }
 .deal-content {
   color: #fff;
@@ -1615,7 +1647,7 @@ button {
 }
 .deal-time {
   margin: 20px 0;
-  margin-bottom: 40px;
+  margin-bottom: 41px;
 }
 .deal-time p {
   color: #fff;
@@ -1759,7 +1791,7 @@ button {
 }
 .header-footer {
   border-bottom: 1px solid #484492;
-  padding: 47px 0;
+  padding: 44px 0;
 }
 .icon-footer {
   width: 20px;
@@ -1789,9 +1821,9 @@ button {
 }
 
 .content-footer {
-  padding: 58px 0;
+  padding: 63px 0;
   color: #fff;
-  padding-bottom: 20px;
+  padding-bottom: 46px;
 }
 .content-footer-item {
   padding: 12px;
@@ -1816,7 +1848,7 @@ button {
 }
 .social-icon {
   display: flex;
-  gap: 0 10px;
+  gap: 0 9.5px;
   padding: 6px 0;
 }
 .social-icon i {
@@ -1890,7 +1922,7 @@ button {
 
 .copyright {
   border-top: 1px solid #484492;
-  padding: 66px 0;
+  padding: 41px 0;
   line-height: 1;
 }
 .copyright-wrap {
