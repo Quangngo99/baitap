@@ -399,7 +399,8 @@
     left: 20px;
   }
   .food-product .slick-initialized .slick-slide {
-    margin: 0 2px;
+    margin: 0 1px;
+    margin-bottom: 80px;
   }
   .baner-deal {
     background-image: url(./images/banner-deal.png);
@@ -713,8 +714,14 @@
   .footer-item-input {
     padding-left: 12px;
   }
+  .food-product .slick-list {
+    height: 338px;
+  }
 }
 @media (max-width: 767px) {
+  .food-product .container {
+    padding: 0 12px;
+  }
   .top-header {
     height: 22px;
     text-align: center;
@@ -908,7 +915,7 @@
 
 @media (max-width: 599px) {
   .food-product .slick-list {
-    height: 396px;
+    height: 417px;
   }
 }
 
@@ -1476,7 +1483,7 @@
     bottom: -30px;
   }
   .food-product .slick-list {
-    height: 340px;
+    height: 336px;
   }
   .banner-img .banner-content p {
     font-size: 11px;
