@@ -39,6 +39,12 @@
   .food-product .slick-initialized .slick-slide {
     margin: 0 3px;
   }
+  .slider .slick-list {
+    height: 577px;
+  }
+  .slider-img img {
+    height: 566px;
+  }
 }
 
 @media (max-width: 1399px) {
@@ -197,7 +203,7 @@
     left: 24px;
   }
   .slider-img img {
-    height: 490px;
+    height: 418px;
   }
   .food-product .container {
     padding: 0;
