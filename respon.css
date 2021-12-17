@@ -746,13 +746,6 @@
     max-width: 100%;
     margin-bottom: 10px;
   }
-  .input button {
-    top: 122px;
-    right: 33px;
-  }
-  .input img {
-    top: 135px;
-  }
   .Engl-USD {
     display: none;
   }
@@ -782,6 +775,15 @@
   }
   .mb-none {
     display: none;
+  }
+  .content-footer-wrap {
+    max-width: 180px;
+  }
+  .input img {
+    top: 21%;
+  }
+  .banner-deal-wrap {
+    left: 42%;
   }
 }
 
@@ -962,7 +964,7 @@
     width: 35%;
   }
   .input button {
-    top: 4%;
+    top: 3px;
     right: 3px;
   }
   .input img {
