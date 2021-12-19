@@ -1994,6 +1994,9 @@ button {
   margin-left: -21px;
 }
 
+.input-search {
+  display: none;
+}
 @keyframes fadeInLeft {
   from {
     -webkit-transform: translateX(30px);

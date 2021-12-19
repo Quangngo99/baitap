@@ -12,6 +12,9 @@
   .header .container {
     padding: 0;
   }
+  .heart-content .slick-list {
+    height: 390px;
+  }
 }
 
 @media (max-width: 1599px) {
@@ -44,6 +47,9 @@
   }
   .slider-img img {
     height: 566px;
+  }
+  .heart-content .slick-list {
+    height: 390px;
   }
 }
 
@@ -211,6 +217,12 @@
   .banner-deal-wrap {
     transform: translate(-50%, -112%);
   }
+  .heart-content .slick-list {
+    height: 357px;
+  }
+  .heart-content button {
+    margin-top: 20px;
+  }
 }
 @media (max-width: 1199px) {
   .slider .slick-list {
@@ -311,7 +323,7 @@
     width: 960px;
   }
   .heart-content .slick-list {
-    height: 319px;
+    height: 337px;
   }
   .stick span {
     font-size: 9px;
@@ -419,6 +431,9 @@
   }
   .food-product .slick-list {
     height: 307px;
+  }
+  .navbar-list {
+    margin-left: unset;
   }
 }
 @media (max-width: 991px) {
@@ -547,6 +562,7 @@
   .navbar-list {
     display: unset;
     padding: 10px 0;
+    margin-left: 0;
   }
   .nav-mobile {
     display: block;
@@ -692,7 +708,10 @@
     padding: 30px;
   }
   .heart-content .slick-list {
-    height: 319px;
+    height: 314px;
+  }
+  .heart-content button {
+    margin-top: 30px;
   }
   .heart-content {
     width: 600px;
@@ -716,6 +735,10 @@
   }
   .food-product .slick-list {
     height: 338px;
+  }
+  .product-img img {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -766,7 +789,7 @@
     padding: 0 25px;
   }
   .navbar-item:last-child {
-    padding: 0 25px;
+    padding: 12px 25px;
   }
   .navbar-item {
     margin: 5px 0;
@@ -1044,6 +1067,7 @@
   }
   .navbar-nav {
     width: 100%;
+    padding-top: 30px;
   }
   .category .container {
     padding: 0 12px;
@@ -1141,8 +1165,11 @@
     margin: 0;
     padding-bottom: 15px;
     line-height: 1px;
-    padding-top: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+  }
+  .shopmenu-item li .boder-bt {
+    border-bottom: none;
   }
   .pagehome-item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -1174,7 +1201,7 @@
     margin: 0;
   }
   .navbar-item span {
-    padding: 5px 0;
+    justify-content: space-between;
   }
   .navbar-item span i {
     top: 9px;
@@ -1451,6 +1478,31 @@
   }
   .product-content {
     width: 100%;
+  }
+  .input-search {
+    display: block;
+    padding: 0 25px;
+    position: relative;
+  }
+  .input-search input {
+    width: 100%;
+    padding: 4px 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  .input-search input:focus {
+    border: 1px solid #95ae3c;
+  }
+  .input-search i {
+    font-size: 18px;
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    color: #79819c;
+  }
+  .input-search input:focus + i {
+    color: #95ae3c;
   }
 }
 

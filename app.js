@@ -57,18 +57,11 @@ $(document).ready(function () {
       '<div class="slick-next"><i class="icon-chevron-right slick-arrow" aria-hidden="true"></i></div>',
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 992,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 2,
           adaptiveHeight: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
         },
       },
     ],
