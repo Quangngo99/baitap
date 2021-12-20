@@ -1475,6 +1475,7 @@
   }
   .content-footer-wrap {
     max-width: 300px;
+    margin-right: 0;
   }
   .product-content {
     width: 100%;
@@ -1503,6 +1504,12 @@
   }
   .input-search input:focus + i {
     color: #95ae3c;
+  }
+  .padding-8 {
+    padding: 0 5px;
+  }
+  .hot-item-product {
+    padding: 0 8px;
   }
 }
 

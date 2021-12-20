@@ -985,14 +985,14 @@ button {
 }
 .slider-img img {
   width: 100%;
-  height: 791px;
+  height: 741px;
   position: absolute;
   top: 0;
 }
 .slider-wrap {
   width: 100%;
   position: absolute;
-  top: 65px;
+  top: 77px;
 }
 .slider-content {
   padding: 100px 0;
@@ -1012,7 +1012,7 @@ button {
   max-width: 508px;
   font-size: 64px;
   line-height: 70px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   margin-bottom: 25px;
 }
 
@@ -1021,7 +1021,7 @@ button {
   color: #334763;
   max-width: 390px;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 25px;
   font-weight: 500;
   margin-bottom: 59px;
 }
@@ -1048,7 +1048,7 @@ button {
   color: #fff;
 }
 .slider-content button {
-  padding: 11.5px 44.5px;
+  padding: 11.5px 50.5px;
   font-size: 12px;
   font-weight: 700;
   color: #ffffff;
@@ -1146,7 +1146,7 @@ button {
   width: 80px;
   height: 80px;
   border-radius: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 .category-item p {
   font-size: 14px;
@@ -1196,7 +1196,8 @@ button {
   line-height: 37px;
 }
 .hot-item .title h3 {
-  margin-bottom: 28px;
+  margin-bottom: 22px;
+  line-height: 40px;
 }
 .product-content {
   width: 218px;
@@ -1219,7 +1220,7 @@ button {
 }
 .stick {
   position: absolute;
-  top: 21px;
+  top: 16px;
   left: 19px;
   line-height: 1;
 }
@@ -1228,7 +1229,7 @@ button {
   font-weight: 700;
   font-size: 11px;
   line-height: 20px;
-  width: 45px;
+  width: 40px;
   height: 20px;
   color: #fff;
   display: inline-block;
@@ -1246,11 +1247,11 @@ button {
 
 .product-item {
   background-color: #f6f8f4;
-  padding: 20px;
+  padding: 16px 20px;
   text-align: left;
   border-radius: 0px 0px 8px 8px;
   line-height: 1;
-  padding-top: 16px;
+  padding-top: 15px;
 }
 .product-item span {
   display: inline-block;
@@ -1258,7 +1259,7 @@ button {
   line-height: 15px;
   font-weight: 600;
   color: #00b853;
-  margin-bottom: 4px;
+  margin-bottom: 3px;
 }
 .icon-start {
   line-height: 1;
@@ -1391,7 +1392,7 @@ button {
   transition: linear 0.3s;
 }
 .food-product .slick-list {
-  height: 405px;
+  height: 397px;
 }
 .food-product .slick-initialized .slick-slide {
   margin: 0 3px;
@@ -1407,14 +1408,14 @@ button {
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
-  margin-top: 43px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row-reverse;
   /* align-items: center; */
 }
 .foryou-content {
   max-width: 437px;
-  margin-top: 50px;
+  margin-top: 54px;
   margin-left: 62px;
 }
 
@@ -1561,7 +1562,7 @@ button {
   display: flex;
 }
 .hot-item-product {
-  margin: 31px 0;
+  margin: 33px 0;
   margin-bottom: 46px;
 }
 .product-item h4 {
@@ -1713,7 +1714,7 @@ button {
   margin: 82px 0;
 }
 .blog .title h3 {
-  margin-bottom: 35px;
+  margin-bottom: 38px;
 }
 .blog-item {
   border-radius: 10px;
@@ -1906,7 +1907,7 @@ button {
   text-transform: uppercase;
   border-radius: 3px;
   position: absolute;
-  top: 3px;
+  top: 4px;
   right: 3px;
 }
 .input button:hover {
