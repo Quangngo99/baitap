@@ -1307,7 +1307,7 @@
     font-size: 10px;
   }
   .content-footer-item h3 {
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
   .social,
   .time-open {
@@ -1474,7 +1474,7 @@
     height: 390px;
   }
   .content-footer-wrap {
-    max-width: 300px;
+    max-width: 100%;
     margin-right: 0;
   }
   .product-content {
@@ -1510,6 +1510,13 @@
   }
   .hot-item-product {
     padding: 0 8px;
+  }
+  .footer-item-title i {
+    display: block;
+    transition: linear 0.2s;
+  }
+  .footer-item-container {
+    display: none;
   }
 }
 

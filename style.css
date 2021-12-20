@@ -1181,7 +1181,7 @@ button {
 .title p {
   font-family: "Schoolbell";
   font-size: 18px;
-  line-height: 27px;
+  line-height: 24px;
   font-weight: 400;
   color: #96ae00;
 }
@@ -1220,7 +1220,7 @@ button {
 }
 .stick {
   position: absolute;
-  top: 16px;
+  top: 18px;
   left: 19px;
   line-height: 1;
 }
@@ -1263,7 +1263,7 @@ button {
 }
 .icon-start {
   line-height: 1;
-  margin-bottom: 3px;
+  margin-bottom: 9px;
 }
 .icon-start i {
   color: #ffb800;
@@ -1408,7 +1408,7 @@ button {
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
-  margin-top: 50px;
+  margin-top: 53px;
   display: flex;
   flex-direction: row-reverse;
   /* align-items: center; */
@@ -1563,7 +1563,7 @@ button {
 }
 .hot-item-product {
   margin: 33px 0;
-  margin-bottom: 46px;
+  margin-bottom: 47px;
 }
 .product-item h4 {
   font-size: 13px;
@@ -1908,7 +1908,7 @@ button {
   border-radius: 3px;
   position: absolute;
   top: 4px;
-  right: 3px;
+  right: -18px;
 }
 .input button:hover {
   background-color: #859a00;
@@ -1918,7 +1918,7 @@ button {
   border-right: 1px solid #484492;
 }
 .footer-item-input {
-  padding-left: 77px;
+  padding-left: 98px;
 }
 
 .copyright {
@@ -1998,6 +1998,23 @@ button {
 .input-search {
   display: none;
 }
+.footer-item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-item-title i {
+  display: none;
+  padding: 4px;
+  background-color: #fff;
+  color: #2d2a6e;
+  border-radius: 50%;
+  font-weight: 600;
+}
+.content-footer .col-md-4 .content-footer-wrap {
+  max-width: 100%;
+}
+
 @keyframes fadeInLeft {
   from {
     -webkit-transform: translateX(30px);
