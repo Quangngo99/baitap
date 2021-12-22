@@ -121,7 +121,7 @@ button {
 .top-header ul {
   display: flex;
   justify-content: flex-end;
-  gap: 0 21px;
+  gap: 0 20px;
 }
 .top-header ul li:first-child strong {
   font-weight: 700;
@@ -151,6 +151,10 @@ button {
   left: 0;
   width: 60%;
   height: 30px;
+}
+.language-item span {
+  display: flex;
+  align-items: center;
 }
 .language-list {
   position: absolute;
@@ -190,6 +194,7 @@ button {
 }
 .language-item:last-child {
   padding-right: 0;
+  margin-left: 6px;
 }
 .language-item i {
   font-size: 12px;
@@ -1160,7 +1165,7 @@ button {
 }
 .category-item p {
   font-size: 14px;
-  line-height: 1;
+  line-height: 17px;
   font-weight: 700;
 }
 .category-item span {
@@ -1182,7 +1187,7 @@ button {
 /* food */
 .food {
   margin: 20px 0;
-  margin-top: 79px;
+  margin-top: 76px;
 }
 .title {
   width: 100%;
@@ -1261,6 +1266,7 @@ button {
   text-align: left;
   border-radius: 0px 0px 8px 8px;
   line-height: 1;
+  padding-bottom: 15px;
 }
 .product-item span {
   display: inline-block;
@@ -1415,7 +1421,7 @@ button {
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
-  margin-top: 43px;
+  margin-top: 48px;
   display: flex;
   flex-direction: row-reverse;
 }

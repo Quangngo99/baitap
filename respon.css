@@ -523,11 +523,6 @@
   .baner-deal img {
     display: none;
   }
-  .banner-deal-wrap {
-    top: 12%;
-    left: 6%;
-    transform: unset;
-  }
   .blog-content-item:nth-child(3) .blog-content-item {
     padding: 5px;
   }
@@ -561,7 +556,7 @@
   /*  */
   .top-header-text,
   .top-header ul li {
-    font-size: 9px;
+    font-size: 12px;
   }
   .navbar-nav {
     position: fixed;
@@ -820,6 +815,12 @@
   }
   .slider-heart {
     height: 315px;
+  }
+  .mb-none {
+    display: none !important;
+  }
+  .top-header-wrap {
+    justify-content: center;
   }
 }
 @media (max-width: 767px) {
@@ -1510,7 +1511,7 @@
     padding: 0;
   }
   .banner-deal-wrap {
-    left: 6%;
+    left: 4%;
   }
   .blog-content-item {
     padding: 0 12px;
