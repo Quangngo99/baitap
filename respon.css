@@ -822,6 +822,9 @@
   .top-header-wrap {
     justify-content: center;
   }
+  .slider .slick-list {
+    height: 380px;
+  }
 }
 @media (max-width: 767px) {
   .food-product .container {
@@ -1518,6 +1521,9 @@
   }
   .col-tb {
     margin-bottom: 10px;
+  }
+  .slider .slick-list {
+    height: 342px;
   }
 }
 
