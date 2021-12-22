@@ -208,10 +208,12 @@ close.onclick = function () {
 
 const overlay = document.querySelector(".heart-overlay");
 overlay.onclick = function () {
-  document.querySelector(".navbar-nav").style.transform = "translateX(-110%)";
-  document.querySelector(".bag-wrap").style.transform = "translateX(110%)";
-  document.querySelector(".heart-overlay").style.display = "none";
-  document.querySelector(".heart-content").style.visibility = "hidden";
+  if (screen.width < 992) {
+    document.querySelector(".navbar-nav").style.transform = "translateX(-110%)";
+    document.querySelector(".bag-wrap").style.transform = "translateX(110%)";
+    document.querySelector(".heart-overlay").style.display = "none";
+    document.querySelector(".heart-content").style.visibility = "hidden";
+  }
 };
 
 // nav item
