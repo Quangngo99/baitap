@@ -1516,6 +1516,9 @@
   .blog-content-item {
     padding: 0 12px;
   }
+  .col-tb {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 379px) {
