@@ -234,7 +234,7 @@ button {
   display: flex;
   align-items: center;
   gap: 0 25px;
-  margin-left: 90px;
+  margin-left: 84px;
 }
 .navbar-item span,
 .navbar-item a {
@@ -710,7 +710,7 @@ button {
   display: flex;
 }
 .nav-icon-list .icon {
-  margin-left: 10px;
+  margin-left: 9px;
 }
 .bag-icon span {
   position: absolute;
@@ -1272,6 +1272,7 @@ button {
 }
 .icon-start {
   line-height: 1;
+  margin-bottom: 4px;
 }
 .icon-start i {
   color: #ffb800;
@@ -1403,6 +1404,7 @@ button {
 }
 .slick-initialized .slick-slide {
   padding: 0 10px;
+  padding-bottom: 30px;
 }
 
 /*best for you */
@@ -1413,7 +1415,7 @@ button {
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
-  margin-top: 76px;
+  margin-top: 43px;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -1573,10 +1575,13 @@ button {
 .hot-item-product {
   display: flex;
   margin: 33px 0;
-  margin-bottom: 51px;
+  margin-bottom: 47px;
 }
 .hot-item-product .product-item p {
   line-height: 24px;
+}
+.hot-item-product .product-item .icon-start {
+  margin-bottom: 3px;
 }
 .hot-item-product .product-img {
   padding: 20px 16px;
@@ -1625,7 +1630,7 @@ button {
   position: absolute;
   width: 440px;
   left: 35%;
-  transform: translate(-50%, -142%);
+  transform: translate(-50%, -142.5%);
 }
 .deal-content {
   color: #fff;
@@ -1811,7 +1816,7 @@ button {
 }
 .header-footer {
   border-bottom: 1px solid #484492;
-  padding: 49px 0;
+  padding: 46px 0;
 }
 .icon-footer {
   width: 20px;
@@ -1841,7 +1846,7 @@ button {
 }
 
 .content-footer {
-  padding: 57px 0;
+  padding: 63px 0;
   color: #fff;
   padding-bottom: 46px;
 }
@@ -1890,7 +1895,7 @@ button {
   line-height: 22px;
 }
 .footer-category-list li p {
-  margin-bottom: 12px;
+  margin-bottom: 13px;
   cursor: pointer;
 }
 .footer-category-list li:hover p {
@@ -1942,7 +1947,7 @@ button {
 
 .copyright {
   border-top: 1px solid #484492;
-  padding: 38px 0;
+  padding: 39px 0;
   line-height: 1;
 }
 .copyright-wrap {
@@ -1952,7 +1957,7 @@ button {
   padding: 0 12px;
 }
 .copyright-icon {
-  gap: 0 20px;
+  gap: 0 25px;
 }
 .copyright-icon,
 .Engl-USD {

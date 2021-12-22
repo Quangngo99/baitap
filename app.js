@@ -211,6 +211,7 @@ overlay.onclick = function () {
   document.querySelector(".navbar-nav").style.transform = "translateX(-110%)";
   document.querySelector(".bag-wrap").style.transform = "translateX(110%)";
   document.querySelector(".heart-overlay").style.display = "none";
+  document.querySelector(".heart-content").style.visibility = "hidden";
 };
 
 // nav item
